@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bric Live</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+        <style media="screen">
+            * {
+                margin: 0 auto;
+            }
+
+            #color-bar {
+                width: 100%;
+                height: 150px;
+                background-color: rgb(63,81,181);
+                position: absolute;
+                z-index: -2;
+                top: 0;
+            }
+
+            #nav-bar {
+                height: 30px;
+                width: 100%;
+                background-color: rgb(48,63,159);
+            }
+
+            #content {
+                width: 50%;
+                height: 470px;
+                background-color: #ffffff;
+                z-index: 3;
+                margin-top: 80px;
+                box-shadow: 1px 1px 1px 1px #ccc;
+                padding-bottom:  100px;
+
+            }
+            #stuff {
+
+            }
+            #someh4 {
+                text-align: center;
+            }
+            #someh5 {
+                margin-bottom: 50px;
+                text-align: center;
+            }
+            #submitButton {
+                margin-top: 40px;
+                margin-left: 20%;
+                background: #3b5998;
+                margin-bottom: 100px;
+            }
+            #logo {
+                margin-left: 33%;
+            }
+        </style>
+        <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/ui/live/0.5/firebase-ui-auth.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/live/0.5/firebase-ui-auth.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+        <script src="bric-app.js"></script>
+
+    </head>
+    <body onload="facebookAuth()">
+        <div id="color-bar">
+            <div id="nav-bar"></div>
+
+
+        </div>
+
+        <div id="content">
+            <div id="stuff">
+
+                <img id="logo" src="images/BRIC%20LIVE%20app%20logo.png" style="width:200px;height:200;">
+                <div id="firebaseui-auth-container"></div>
+
+            </div>
+        </div>
+
+    </body>
+</html>
