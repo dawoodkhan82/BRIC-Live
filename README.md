@@ -3,8 +3,8 @@
 Worked on iOS application, implemented custom camera, upload recorded video to firebase, google and facebook sign-in and more.
 
 Members:
+- Dawood Khan
 - Rafi Rizwan
 - Noman Hamlani
 - Rohul Amin
 - Fatima Chaudhry
-- Dawood Khan
