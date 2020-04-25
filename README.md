@@ -7,4 +7,3 @@ Members:
 - Rafi Rizwan
 - Noman Hamlani
 - Rohul Amin
-- Fatima Chaudhry
